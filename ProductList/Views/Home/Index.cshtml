@@ -1,0 +1,74 @@
+﻿<table class="table">
+    <tr>
+        <td>
+            <img width="300" src="~/Content/Images/ME_INF272_.jpeg" alt="" />
+        </td>
+        <td>
+            <div class="row">
+                <div class="col">Name</div>
+                <div class="col">Mohamed Yaseen</div>
+
+
+            </div>
+            <div class="row">
+                <div class="col">Surname</div>
+                <div class="col">Munshi</div>
+
+
+            </div>
+            <div class="row">
+                <div class="col">Student Number</div>
+                <div class="col">u24594394</div>
+
+
+            </div>
+        </td>
+    </tr>
+</table>
+
+<h2>Steps followed</h2>
+<ul class="list-group">
+    <li>
+        Used the provided sample project from Session 09.
+    </li>
+    <li>
+        Updated Index.cshtml (HomeController) with student name, surname, student number, and photo.
+    </li>
+    <li>
+        Created a new model: Supplier.cs
+    </li>
+    <li>Updated models: Category.cs, Product.cs, ProductRepository.cs, and ProductViewModel.cs.</li>
+    <li>
+        Ensured:
+
+        3 Suppliers
+
+        9 Categories
+
+        16 Products (no data overlaps)
+
+    </li>
+    <li>
+        Updated ProductController.cs to support the new model and data.
+    </li>
+    <li> Added or modified actions like GetProductsByCategory to handle new dropdown logic.</li>
+    <li>
+        Modified Product/Index.cshtml to:
+        Add 1 new Dropdown for Supplier (total 3).
+        Add 1 new numeric Textbox (Serial, 10-character limit).
+        Layout form controls in 2 columns.
+        Maintain proper enable/disable sequence.
+    </li>
+    <li>
+        Updated to support:
+
+        Dynamic enabling/disabling of controls.
+
+        Proper CRUD functionality (Add, Edit, Save, Delete).
+
+        DOM manipulation using ids.
+
+        Per-row targeting instead of global controls.
+
+    </li>
+</ul>
